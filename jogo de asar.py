@@ -1,6 +1,5 @@
 import random
 
-# Sorteia um número entre 1 e 10
 numero_aleatorio = random.randint(1, 9)
 
 acertou = False
@@ -14,7 +13,7 @@ while not acertou:
             continue
 
         elif numero_digitado == numero_aleatorio:
-            print("Você venceu! 🎉")
+            print("Você venceu!")
             acertou = True
         else:
             print("Você errou. Tente novamente.")
