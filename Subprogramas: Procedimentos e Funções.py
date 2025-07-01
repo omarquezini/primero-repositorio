@@ -5,14 +5,19 @@ bem_vindo()
 
 # e isso ai 
 
-def dobro(n):
-    return n * n
+n = int(input("digite o numero que sera dobrado"))
 
-print (dobro(5,))
+def dobro(n):
+    return n * 2
+
+print (dobro(n))
 
 # retangulo, a area de um retangulo
 
+base = int(input("digite o valor da base. "))
+
+altura = int(input("digite o valor da altura"))
 def arrea_retangulo(base,altura):
     return base * altura
 
-print (arrea_retangulo(10,30))
+print (arrea_retangulo(base,altura))
